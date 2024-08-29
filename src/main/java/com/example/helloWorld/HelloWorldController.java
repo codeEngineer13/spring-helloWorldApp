@@ -21,6 +21,6 @@ public class HelloWorldController {
      */
     @GetMapping("/info")
     public String info(){
-        return "Informacja.";
+        return "Informacja na dowolny temat.";
     }
 }
